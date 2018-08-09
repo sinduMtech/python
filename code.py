@@ -1,11 +1,12 @@
 # Python 3.x code to demonstrate alphabet pyramid pattern
 # Function to demonstrate printing alphabets
+n = 4
 # initialize lowercase which starts with 97
 n1 = 97
 # initialize uppercase which starts with 65
 n2 = 65
 # outer loop to handle number of rows
-for i in range(1, 5):
+for i in range(1, n+1):
         # check i is even number
         if((i % 2) == 0):
         # inner loop to handle number of columns
